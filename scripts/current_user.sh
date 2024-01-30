@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -w  $1 ./records/account.txt > ./records/exist.txt
+grep -x  $1 ./records/account.txt > ./records/exist.txt
